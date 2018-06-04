@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Func.h"
+#include "Func.hpp"
 
 int Gaps (char *TextMas, char *c, char WordsMas[100][50], int &words) 
 {
@@ -15,7 +15,7 @@ int Gaps (char *TextMas, char *c, char WordsMas[100][50], int &words)
     return words;
 }
 
-int Sort (char WordsMas[100][50], int &words) 
+void Sort (char WordsMas[100][50], int &words) 
 {
     char temp[50];
     for (int j = 0; j < words; j++) {
@@ -27,6 +27,5 @@ int Sort (char WordsMas[100][50], int &words)
 	    }
         }	
     }
-    return WordsMas[100][50];
 }
 
