@@ -3,13 +3,14 @@
 #include <locale.h>
 #include <conio.h>
 #include <stdlib.h>
+#include "Func.hpp"
 
 void Menu_1()
 {
     int ch;
     bool bol = false;
     do {
-		printf("1.Приступить к в вводу текста\n2.Текст из файла\n3.Выход\n");
+		printf("1.Приступить к вводу текста\n2.Текст из файла\n3.Выход\n");
 		ch = getch();
 		switch(ch) {
 			case 49:
