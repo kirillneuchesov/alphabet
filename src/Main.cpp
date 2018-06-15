@@ -8,6 +8,8 @@
 
 int main()
 {
+    system("chcp 1251");
+    system("cls");
     char TextMas[9999],WordsMas[100][50],c[4]={',' , ' ' , '.' , '\n'};
     int k=0,v=0,words=0;
     while(1)

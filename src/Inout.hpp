@@ -99,7 +99,7 @@ void Output(char WordsMas[100][50], char *c, int k, int v, int &words)
    	words = 0;
 }
 
-void Input(char *TextMas, int &k)
+void Input(char *TextMas)
 {
 	printf("¬ведите текст:");
 	gets(TextMas);
