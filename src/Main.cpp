@@ -3,6 +3,8 @@
 #include <conio.h>
 #include <cstring>
 #include <locale.h>
+#include "Inout.hpp"
+#include "Logic.hpp"
 
 int main()
 {
@@ -10,12 +12,12 @@ int main()
     int k=0,v=0,words=0;
     while(1)
     {
-        menu1();
-        input(TextMas);
-        menu2(v,k);
-        gaps(TextMas,c, WordsMas,words);
-        sort(WordsMas,words);
-        output(WordsMas,c,k, v, words);
+        Menu_1();
+        Input(TextMas);
+        Menu_2(v,k);
+        Gaps(TextMas,c, WordsMas,words);
+        Sort(WordsMas,words);
+        Output(WordsMas,c,k, v, words);
         getch();
         system("cls");
     }

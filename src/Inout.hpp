@@ -1,9 +1,11 @@
+#ifndef INOUT_HPP
+#define INOUT_HPP
+
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
 #include <conio.h>
 #include <stdlib.h>
-#include "Func.hpp"
 
 void Menu_1()
 {
@@ -102,3 +104,6 @@ void Input(char *TextMas, int &k)
 	printf("¬ведите текст:");
 	gets(TextMas);
 }
+
+#endif //INOUT_HPP
+

@@ -1,3 +1,6 @@
+#ifndef LOGIC_HPP
+#define LOGIC_HPP
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,7 +8,6 @@
 #include <fstream>
 #include <iostream>
 #include <conio.h>
-#include "Func.hpp"
 
 void File(char *ch)
 {
@@ -40,4 +42,7 @@ void Sort(char WordsMas[100][50], int &words)
 		}	
 	}
 }
+
+
+#endif //LOGIC_HPP
 
