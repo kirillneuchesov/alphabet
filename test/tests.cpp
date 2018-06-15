@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Func.hpp"
+#include <Inout.hpp>
+#include <Logic.hpp>
 
 void test1()
 {

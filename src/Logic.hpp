@@ -1,7 +1,21 @@
+#ifndef LOGIC_HPP
+#define LOGIC_HPP
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Func.hpp"
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <conio.h>
+
+void File(char *ch)
+{
+    std::ifstream ifs("input.txt");
+    std::string content( (std::istreambuf_iterator<char>(ifs) ),
+                       (std::istreambuf_iterator<char>()    ) );
+    strcpy(ch, content.c_str());
+}
 
 int Gaps(char *TextMas, char *c, char WordsMas[100][50], int &words) 
 {
@@ -28,4 +42,7 @@ void Sort(char WordsMas[100][50], int &words)
 		}	
 	}
 }
+
+
+#endif //LOGIC_HPP
 
