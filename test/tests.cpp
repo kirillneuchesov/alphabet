@@ -1,11 +1,7 @@
-#define CTEST_MAIN
-
 #include <cassert>
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <Inout.hpp>
-#include <Logic.hpp>
+#include "Func.hpp"
 
 void test1()
 {
@@ -111,7 +107,7 @@ void test10()
 	printf("TEST10-OK\n");
 }
 
-int main(int argc, const char** argv) 
+int main() 
 {
 	test1();
 	test2();
