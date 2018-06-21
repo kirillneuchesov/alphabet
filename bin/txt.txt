@@ -1,0 +1,6 @@
+This file is 
+intended for 
+testing the    function 
+of reading  
+text from 
+a file

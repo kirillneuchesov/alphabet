@@ -31,8 +31,5 @@ build/tests.o: test/tests.cpp
 build:
 	mkdir build
 
-bin:
-	mkdir bin
-
 clean: 
 	rm -rf bin/*.exe build
